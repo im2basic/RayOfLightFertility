@@ -19,12 +19,6 @@ export const boardMembers: BoardMember[] = [
     bio: "Jenna Wakefield is an accomplished marketing & sales leader with more than 20 years of experience helping organizations grow through strategic brand development, storytelling, event execution and partnerships. After leading high-performing teams at companies like Harley-Davidson, and working with clients like Visa, Nissan, and Polaris at multiple national agencies, she now runs her own consulting firm, 8 Angles LLC.\n\nJenna brings her leadership, clarity, and passion for helping others to the Ray of Light Fertility Foundation. Her commitment to the Foundation\u2019s mission is rooted in empathy and a profound belief in the transformative power of family. She is committed to supporting couples on their fertility journey\u2014providing hope, guidance, and access to the resources they need to build the families they dream of.\n\nFor Jenna, serving the Ray of Light Fertility Foundation is more than a professional role; it is a personal calling to help others experience the extraordinary gift that changed her life: becoming a parent.",
   },
   {
-    name: "Andrew Povolo",
-    role: "Treasurer",
-    photo: "/assets/board/andrew-povolo.png",
-    bio: "Andrew is a business attorney in southeastern Wisconsin with his own law firm. He earned his undergraduate degree from University of Wisconsin\u2013Madison and his J.D. from Marquette University Law School. His professional background brings important legal, governance, and financial oversight to the Foundation.",
-  },
-  {
     name: "Raychel Pociluyko",
     role: "Secretary",
     photo: null,
@@ -37,10 +31,10 @@ export const boardMembers: BoardMember[] = [
     bio: "Ray of Light Fertility Foundation is deeply important to Angela because she believes every couple who dreams of becoming loving parents deserves support and real opportunity. Her commitment to this mission derives from family and friends who have suffered through fertility challenges and loss. She hopes to help expand access to resources, reduce barriers, and ensure that no one feels alone as they navigate the fertility process.\n\nAngela has worked in the grants industry since 2015, supporting clients across the full spectrum of pre-award and post-award activities. She has held progressively responsible roles within both public and private institutions. Her experience spans grant accounting, proposal preparation and submission, financial management, compliance oversight, and comprehensive award administration. She has prepared proposals for and managed awards made by the NIH, NSF, NASA, DHS, CDC, USDA, Small Business Administration (SBA), state and foundations.",
   },
   {
-    name: "Joe Gustafson",
-    role: "Board Member",
+    name: "Joseph (Joe) Gustafson",
+    role: "Marketing / Board Member",
     photo: null,
-    bio: "Joe is an IT professional with over a decade of experience in network engineering, cybersecurity, and technology strategy. He\u2019s dedicated to using his skills to strengthen the Foundation\u2019s digital infrastructure and expand its reach to families across Wisconsin.",
+    bio: "Professionally, Joe builds and scales brands by fusing hard analytics with authenticity. Over his career he\u2019s worked on brands local to global on growth initiatives, with boutique brands, agencies, startups, and global companies.\n\nPersonally, Joe is a father of two young girls and has experienced first hand the peaks and valleys of starting a family. Both of his daughters were born prematurely, his second 3 months early. Not only were her own early months challenging, but he experienced and connected first-hand with families in the NICU coping with and finding support for unexpected challenges\u2014some even after years of struggling with infertility.",
   },
   {
     name: "Melissa Stone",
