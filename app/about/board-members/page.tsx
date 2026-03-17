@@ -28,6 +28,7 @@ export default function BoardMembersPage() {
                   name={member.name}
                   role={member.role}
                   photo={member.photo}
+                  photoPosition={member.photoPosition}
                   bio={member.bio}
                 />
               </FadeUp>

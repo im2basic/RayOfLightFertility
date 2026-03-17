@@ -10,6 +10,7 @@ interface BoardMemberCardProps {
   role: string
   photo: string | null
   bio: string
+  photoPosition?: string
   className?: string
 }
 
@@ -26,6 +27,7 @@ export function BoardMemberCard({
   role,
   photo,
   bio,
+  photoPosition,
   className,
 }: BoardMemberCardProps) {
   const [expanded, setExpanded] = useState(false)
@@ -45,6 +47,7 @@ export function BoardMemberCard({
             alt={name}
             fill
             className="object-cover"
+            style={photoPosition ? { objectPosition: photoPosition } : undefined}
             sizes="120px"
           />
         </div>

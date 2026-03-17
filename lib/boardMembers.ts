@@ -2,6 +2,7 @@ export interface BoardMember {
   name: string;
   role: string;
   photo: string | null;
+  photoPosition?: string;
   bio: string;
 }
 
@@ -10,12 +11,14 @@ export const boardMembers: BoardMember[] = [
     name: "Winny Chan",
     role: "Founder & Board President",
     photo: "/assets/board/winny-chan.png",
+    photoPosition: "center 20%",
     bio: "Winny Chan\u2019s experience with infertility began through more than five years of fertility treatment, including IUI, IVF, pregnancy loss, and multiple failed IVF cycles. Through this experience, she identified gaps in fertility care, particularly limited access to supportive services that address mental, emotional, and overall well-being during treatment.\n\nRay of Light Fertility Foundation was established to address these unmet needs and is named in honor of the three sons Winny lost, each of whom she would have named Ray. The Foundation\u2019s purpose is to provide financial assistance, resources, and education to individuals and couples undergoing fertility treatment, with an emphasis on reducing financial barriers and expanding access to supportive services. Through grant program, education, and advocacy, Ray of Light Fertility Foundation seeks to improve access, choice, and support for those navigating fertility treatment.",
   },
   {
     name: "Jenna Wakefield",
     role: "Vice President",
     photo: "/assets/board/jenna-wakefield.jpeg",
+    photoPosition: "center 15%",
     bio: "Jenna Wakefield is an accomplished marketing & sales leader with more than 20 years of experience helping organizations grow through strategic brand development, storytelling, event execution and partnerships. After leading high-performing teams at companies like Harley-Davidson, and working with clients like Visa, Nissan, and Polaris at multiple national agencies, she now runs her own consulting firm, 8 Angles LLC.\n\nJenna brings her leadership, clarity, and passion for helping others to the Ray of Light Fertility Foundation. Her commitment to the Foundation\u2019s mission is rooted in empathy and a profound belief in the transformative power of family. She is committed to supporting couples on their fertility journey\u2014providing hope, guidance, and access to the resources they need to build the families they dream of.\n\nFor Jenna, serving the Ray of Light Fertility Foundation is more than a professional role; it is a personal calling to help others experience the extraordinary gift that changed her life: becoming a parent.",
   },
   {
