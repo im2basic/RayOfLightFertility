@@ -30,14 +30,17 @@ export default function FounderStory() {
               Founded From Experience
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-brand-text/80">
-              Winny Chan knows the infertility journey firsthand &mdash; the
-              emotional weight, the financial strain, and the feeling of facing it
-              alone. After navigating her own path to parenthood, she founded Ray
-              of Light Fertility Foundation to ensure that other couples in
-              Wisconsin would have the support she wished she&rsquo;d had. Today,
-              Ray of Light is Wisconsin&rsquo;s first nonprofit dedicated
-              exclusively to helping couples facing infertility &mdash; through
-              financial grants, trusted resources, and a compassionate community.
+              Winny Chan&rsquo;s experience with infertility began through more
+              than five years of fertility treatment, including IUI, IVF,
+              pregnancy loss, and multiple failed IVF cycles. Through this
+              experience, she identified gaps in fertility care, particularly
+              limited access to supportive services that address mental,
+              emotional, and overall well-being during treatment.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-brand-text/80">
+              Ray of Light Fertility Foundation was established to address these
+              unmet needs and is named in honor of the three sons Winny lost,
+              each of whom she would have named Ray.
             </p>
             <Link
               href="/about/board-members"
