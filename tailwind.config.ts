@@ -9,11 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        brand: {
+          primary: "#FFCA08",
+          secondary: "#F8931D",
+          dark: "#39302A",
+          text: "#222222",
+          cream: "#E5DEDB",
+          muted: "#888888",
+        },
       },
     },
   },
   plugins: [],
 };
+
 export default config;

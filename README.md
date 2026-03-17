@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ray of Light Fertility Foundation
+
+A custom Next.js website for **Ray of Light Fertility Foundation** — Wisconsin's first 501(c)(3) nonprofit dedicated exclusively to supporting couples navigating infertility through grants, resources, and community support.
+
+This site replaces an existing Squarespace site with a modern, performant, and fully custom web experience.
+
+## Overview
+
+Ray of Light Fertility Foundation provides:
+
+- **Fertility Grants** — Financial assistance to help cover the cost of fertility treatments
+- **Resources & Guidance** — Curated information and support tools for the fertility journey
+- **Community Support** — Events, volunteer programs, and a growing network of encouragement
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Next.js 14** (App Router) | Framework |
+| **TypeScript** | Language |
+| **Tailwind CSS** | Styling |
+| **Framer Motion** | Animations (scroll-triggered fade-ups) |
+| **Radix UI** | Accessible accordion, dialog, navigation |
+| **Resend** | Contact form email delivery |
+| **Poppins** | Primary typeface (via `next/font/google`) |
+
+## Site Structure
+
+```
+/                           Homepage
+/about                      About the foundation
+/about/board-members        Board of Directors
+/about/contact              Contact form + info
+/about/events-in-the-news   Press & events (placeholder)
+/resources                  Resources hub (placeholder)
+/grant                      Grant program hub
+/grant/information          Grant details (placeholder)
+/grant/faq                  14-item FAQ with accordion
+/grant/recipients           Grant recipients (placeholder)
+/get-involved               Ways to help overview
+/get-involved/donate        Donation page with impact levels
+/get-involved/events        Upcoming events (placeholder)
+/get-involved/volunteers    Volunteer form (Monday.com embed)
+/get-involved/sponsors      Sponsors & donors (placeholder)
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Install & Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+### Lint
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create a `.env.local` file in the project root:
 
-## Deploy on Vercel
+```env
+NEXT_PUBLIC_BUTTER_DONATE_URL=       # Butter donation page URL
+NEXT_PUBLIC_BUTTER_MONTHLY_DONATE_URL= # Butter monthly giving URL
+RESEND_API_KEY=                       # Resend.com API key for contact form
+CONTACT_EMAIL=                        # Destination email for contact submissions
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/                    Next.js App Router pages & API routes
+components/
+  layout/               Navbar, Footer (present on every page)
+  sections/             Page-level sections (Hero, HowWeHelp, etc.)
+  ui/                   Reusable UI (cards, forms, accordion, buttons)
+  animations/           FadeUp wrapper for Framer Motion scroll reveals
+lib/
+  constants.ts          URLs, nav structure, social links
+  boardMembers.ts       Board member data (7 entries)
+  grantFaq.ts           Grant FAQ data (14 entries)
+  utils.ts              Utility functions (cn)
+public/assets/          Images (logo, stock photos, board headshots)
+```
+
+## Deployment
+
+Designed for deployment on **Vercel**. Connect the GitHub repository and Vercel will auto-deploy on push to `main`.
+
+## License
+
+Private. All rights reserved by Ray of Light Fertility Foundation.
