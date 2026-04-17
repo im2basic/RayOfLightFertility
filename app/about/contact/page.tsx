@@ -24,7 +24,7 @@ export default function ContactPage() {
         <div className="mx-auto grid max-w-5xl gap-12 lg:grid-cols-2">
           {/* Contact Form */}
           <FadeUp>
-            <div className="rounded-xl bg-brand-cream/40 p-6 sm:p-8">
+            <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm sm:p-8">
               <h2 className="mb-6 text-xl font-semibold text-brand-dark">
                 Send Us a Message
               </h2>
@@ -35,7 +35,7 @@ export default function ContactPage() {
           {/* Contact Info + Image */}
           <FadeUp delay={0.15}>
             <div className="flex flex-col gap-8">
-              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl">
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl shadow-lg">
                 <Image
                   src="/assets/stock/flower-field-sunrise.jpg"
                   alt="Flower field at sunrise"
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 <h2 className="mb-3 text-xl font-semibold text-brand-dark">
                   Get in Touch
                 </h2>
-                <p className="text-sm leading-relaxed text-brand-text">
+                <p className="text-sm leading-relaxed text-brand-text/80">
                   Whether you have questions about our grant program, want to
                   partner with us, or simply want to learn more about Ray of Light
                   Fertility Foundation, we&apos;d love to hear from you.
@@ -71,12 +71,12 @@ export default function ContactPage() {
                 <h3 className="mb-3 text-sm font-semibold uppercase tracking-widest text-brand-secondary">
                   Follow Us
                 </h3>
-                <div className="flex gap-4">
+                <div className="flex gap-3">
                   <a
                     href={SOCIAL_LINKS.facebook}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-brand-cream px-4 py-2 text-sm font-medium text-brand-dark transition-colors hover:bg-brand-primary"
+                    className="inline-flex items-center gap-2 rounded-full border border-gray-100 bg-white px-4 py-2 text-sm font-medium text-brand-dark shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md hover:text-brand-secondary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ export default function ContactPage() {
                     href={SOCIAL_LINKS.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-brand-cream px-4 py-2 text-sm font-medium text-brand-dark transition-colors hover:bg-brand-primary"
+                    className="inline-flex items-center gap-2 rounded-full border border-gray-100 bg-white px-4 py-2 text-sm font-medium text-brand-dark shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md hover:text-brand-secondary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

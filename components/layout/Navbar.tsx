@@ -178,7 +178,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
-            src="/assets/logo/ray-of-light-logo.png"
+            src="/assets/logo/Ray of Light Final Logo.png"
             alt="Ray of Light Fertility Foundation"
             width={320}
             height={100}
@@ -217,7 +217,7 @@ export default function Navbar() {
           {/* Donate button */}
           <Link
             href={donateHref}
-            className="rounded-full bg-brand-primary px-6 py-2 text-sm font-bold text-brand-dark shadow-sm hover:bg-brand-secondary hover:text-white transition-colors"
+            className="rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-6 py-2 text-sm font-bold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
           >
             Donate
           </Link>
@@ -260,7 +260,7 @@ export default function Navbar() {
                 {/* Header */}
                 <div className="flex items-center justify-between border-b border-gray-100 px-4 py-4">
                   <Image
-                    src="/assets/logo/ray-of-light-logo.png"
+                    src="/assets/logo/Ray of Light Final Logo.png"
                     alt="Ray of Light Fertility Foundation"
                     width={200}
                     height={66}
@@ -292,7 +292,7 @@ export default function Navbar() {
                   <Link
                     href={donateHref}
                     onClick={() => setMobileOpen(false)}
-                    className="block w-full rounded-full bg-brand-primary py-3 text-center text-sm font-bold text-brand-dark shadow-sm hover:bg-brand-secondary hover:text-white transition-colors"
+                    className="block w-full rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] py-3 text-center text-sm font-bold text-white shadow-md transition-all duration-300 hover:shadow-lg"
                   >
                     Donate
                   </Link>

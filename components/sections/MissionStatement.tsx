@@ -7,6 +7,7 @@ export default function MissionStatement() {
     <section className="bg-white px-6 py-20 md:py-28">
       <div className="mx-auto max-w-5xl text-center">
         <FadeUp>
+          <div className="mx-auto mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary" />
           <p className="text-2xl font-semibold italic leading-relaxed text-brand-dark sm:text-3xl md:text-4xl">
             To provide support to couples struggling in their journey to create
             or expand their families by helping them share their stories,

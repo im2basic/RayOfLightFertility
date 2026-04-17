@@ -16,14 +16,14 @@ export function FadeUp({
   delay = 0,
   duration = 0.6,
   className,
-  y = 30,
+  y = 20,
 }: FadeUpProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
-      transition={{ duration, delay, ease: 'easeOut' }}
+      transition={{ duration, delay, ease: [0.4, 0, 0.2, 1] }}
       className={cn(className)}
     >
       {children}

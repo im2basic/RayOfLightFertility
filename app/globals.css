@@ -10,4 +10,12 @@ body {
   color: #222222;
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth selection color */
+::selection {
+  background-color: rgba(212, 160, 36, 0.2);
+  color: #39302A;
 }

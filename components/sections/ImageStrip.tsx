@@ -33,14 +33,14 @@ export default function ImageStrip() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
-              transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="relative aspect-square overflow-hidden rounded-2xl"
+              transition={{ duration: 0.6, delay: i * 0.1, ease: [0.4, 0, 0.2, 1] }}
+              className="group relative aspect-square overflow-hidden rounded-2xl shadow-sm"
             >
               <Image
                 src={img.src}
                 alt={img.alt}
                 fill
-                className="object-cover transition-transform duration-700 hover:scale-105"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </motion.div>
           ))}

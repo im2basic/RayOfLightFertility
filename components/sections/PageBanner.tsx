@@ -37,7 +37,7 @@ export default function PageBanner({
             className="absolute inset-0"
             style={{
               background:
-                'linear-gradient(135deg, rgba(229,222,219,0.92) 0%, rgba(245,230,200,0.85) 50%, rgba(255,202,8,0.65) 100%)',
+                'linear-gradient(to top, rgba(45,41,38,0.85) 0%, rgba(45,41,38,0.65) 50%, rgba(45,41,38,0.45) 100%)',
             }}
           />
         </>
@@ -46,13 +46,16 @@ export default function PageBanner({
         <h1
           className={cn(
             'text-3xl font-bold sm:text-4xl lg:text-5xl',
-            backgroundImage ? 'text-brand-dark drop-shadow-sm' : 'text-brand-dark',
+            backgroundImage ? 'text-white' : 'text-brand-dark',
           )}
         >
           {title}
         </h1>
         {subtitle && (
-          <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-brand-muted sm:text-lg">
+          <p className={cn(
+            'mx-auto mt-4 max-w-2xl text-base leading-relaxed sm:text-lg',
+            backgroundImage ? 'text-white/75' : 'text-brand-muted',
+          )}>
             {subtitle}
           </p>
         )}

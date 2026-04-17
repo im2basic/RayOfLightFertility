@@ -24,7 +24,8 @@ export const boardMembers: BoardMember[] = [
   {
     name: "Raychel Pociluyko",
     role: "Secretary",
-    photo: null,
+    photo: "/assets/board/Raychol Headshot.jpg",
+    photoPosition: "center 20%",
     bio: "Raychel is a native of Wisconsin and has worked in the Milwaukee area as a Certified Lead Auditor and Quality Assurance Specialist for ten years. Raychel developed a deep appreciation for nonprofits that seek to improve the quality of life for our region; she believes every woman should have the support, resources, and financial assistance necessary to help expand their families.",
   },
   {
@@ -36,7 +37,8 @@ export const boardMembers: BoardMember[] = [
   {
     name: "Joseph (Joe) Gustafson",
     role: "Marketing / Board Member",
-    photo: null,
+    photo: "/assets/board/Joseph (Joe) Gustafson Headshot.jpeg",
+    photoPosition: "center 20%",
     bio: "Professionally, Joe builds and scales brands by fusing hard analytics with authenticity. Over his career he\u2019s worked on brands local to global on growth initiatives, with boutique brands, agencies, startups, and global companies.\n\nPersonally, Joe is a father of two young girls and has experienced first hand the peaks and valleys of starting a family. Both of his daughters were born prematurely, his second 3 months early. Not only were her own early months challenging, but he experienced and connected first-hand with families in the NICU coping with and finding support for unexpected challenges\u2014some even after years of struggling with infertility.",
   },
   {

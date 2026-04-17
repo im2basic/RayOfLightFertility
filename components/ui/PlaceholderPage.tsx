@@ -39,13 +39,16 @@ export function PlaceholderPage({
               className="absolute inset-0"
               style={{
                 background:
-                  'linear-gradient(135deg, rgba(229,222,219,0.92) 0%, rgba(245,230,200,0.85) 50%, rgba(255,202,8,0.65) 100%)',
+                  'linear-gradient(to top, rgba(45,41,38,0.85) 0%, rgba(45,41,38,0.65) 50%, rgba(45,41,38,0.45) 100%)',
               }}
             />
           </>
         )}
         <FadeUp className="relative">
-          <h1 className="text-3xl font-bold text-brand-dark sm:text-4xl lg:text-5xl">
+          <h1 className={cn(
+            'text-3xl font-bold sm:text-4xl lg:text-5xl',
+            image ? 'text-white' : 'text-brand-dark',
+          )}>
             {title}
           </h1>
         </FadeUp>
@@ -67,7 +70,7 @@ export function PlaceholderPage({
             {cta && (
               <Link
                 href={cta.href}
-                className="mb-8 inline-flex items-center justify-center rounded-full bg-brand-primary px-6 py-2.5 text-sm font-semibold text-brand-dark transition-colors duration-300 hover:bg-brand-secondary"
+                className="mb-8 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-6 py-2.5 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
               >
                 {cta.label}
               </Link>

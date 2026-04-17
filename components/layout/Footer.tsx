@@ -46,11 +46,11 @@ export default function Footer() {
           <div className="lg:col-span-4">
             <Link href="/">
               <Image
-                src="/assets/logo/ray-of-light-logo.png"
+                src="/assets/logo/Ray of Light Final Logo.png"
                 alt="Ray of Light Fertility Foundation"
                 width={200}
                 height={66}
-                className="h-16 w-auto brightness-0 invert"
+                className="h-16 w-auto"
               />
             </Link>
             <p className="mt-4 text-lg font-medium text-brand-primary">
@@ -136,7 +136,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="mt-3 w-full rounded-lg bg-brand-primary px-4 py-2.5 text-sm font-bold text-brand-dark hover:bg-brand-secondary hover:text-white transition-colors"
+                  className="mt-3 w-full rounded-lg bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-4 py-2.5 text-sm font-bold text-white transition-all duration-300 hover:shadow-lg"
                 >
                   Subscribe
                 </button>

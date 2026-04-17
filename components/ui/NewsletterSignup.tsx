@@ -42,7 +42,7 @@ export function NewsletterSignup({ className }: NewsletterSignupProps) {
       />
       <button
         type="submit"
-        className="rounded-full bg-brand-primary px-6 py-2.5 text-sm font-semibold text-brand-dark transition-colors duration-300 hover:bg-brand-secondary"
+        className="rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
       >
         Subscribe
       </button>

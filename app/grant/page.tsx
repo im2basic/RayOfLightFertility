@@ -62,7 +62,7 @@ export default function GrantHubPage() {
       </section>
 
       {/* Cards */}
-      <section className="bg-brand-cream px-6 py-20">
+      <section className="bg-brand-cream/30 px-6 py-20">
         <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((card, i) => (
             <FadeUp key={card.title} delay={i * 0.1}>
@@ -91,9 +91,18 @@ export default function GrantHubPage() {
           </p>
           <Link
             href={applyHref}
-            className="inline-flex items-center justify-center rounded-full bg-brand-primary px-8 py-3 text-sm font-semibold text-brand-dark transition-colors duration-300 hover:bg-brand-secondary hover:text-white"
+            className="group inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
           >
             Apply for a Grant
+            <svg
+              className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2.5}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
           </Link>
         </FadeUp>
       </section>

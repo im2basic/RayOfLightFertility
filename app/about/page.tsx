@@ -57,7 +57,7 @@ export default function AboutPage() {
               </p>
             </FadeUp>
             <FadeUp delay={0.2}>
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-lg">
                 <Image
                   src="/assets/stock/supportive-hands.jpg"
                   alt="Supportive hand holding, comfort and connection"
@@ -114,14 +114,15 @@ export default function AboutPage() {
             <SectionLabel>Our Values</SectionLabel>
           </FadeUp>
 
-          <div className="mt-10 grid gap-8 sm:grid-cols-2">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2">
             {values.map((value, i) => (
               <FadeUp key={value.name} delay={i * 0.1}>
-                <div className="rounded-xl bg-brand-cream/40 p-6 shadow-sm">
+                <div className="group rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5">
+                  <div className="mb-3 h-1 w-8 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary" />
                   <h3 className="mb-2 text-lg font-semibold text-brand-dark">
                     {value.name}
                   </h3>
-                  <p className="text-sm leading-relaxed text-brand-text">
+                  <p className="text-sm leading-relaxed text-brand-text/80">
                     {value.description}
                   </p>
                 </div>
@@ -136,9 +137,18 @@ export default function AboutPage() {
         <FadeUp>
           <Link
             href="/about/board-members"
-            className="inline-flex items-center justify-center rounded-full bg-brand-primary px-8 py-3 text-sm font-semibold text-brand-dark transition-colors duration-300 hover:bg-brand-secondary"
+            className="group inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
           >
             Meet Our Board
+            <svg
+              className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2.5}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
           </Link>
         </FadeUp>
       </section>

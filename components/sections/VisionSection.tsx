@@ -10,7 +10,7 @@ export default function VisionSection() {
           {/* Heading */}
           <FadeUp>
             <h2 className="text-3xl font-extrabold leading-tight text-brand-dark sm:text-4xl md:text-5xl">
-              Wisconsin Nonprofit Dedicated to Infertility Support
+              Wisconsin&rsquo;s First Nonprofit Dedicated to Infertility Support
             </h2>
           </FadeUp>
 
@@ -23,7 +23,8 @@ export default function VisionSection() {
               confidence, and care.
             </p>
 
-            <div className="mt-8 rounded-2xl bg-white p-8 shadow-sm">
+            <div className="mt-8 rounded-2xl border border-gray-100 bg-white p-8 shadow-sm">
+              <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary" />
               <blockquote className="text-base italic leading-relaxed text-brand-dark/90 sm:text-lg">
                 &ldquo;We envision a world where no one walks the infertility
                 journey alone&mdash;where compassion replaces stigma, community

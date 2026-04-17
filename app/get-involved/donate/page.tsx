@@ -79,13 +79,22 @@ export default function DonatePage() {
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Link
                 href={DONATE_URL}
-                className="inline-flex items-center justify-center rounded-full bg-brand-primary px-8 py-3.5 text-sm font-bold text-brand-dark shadow-md transition-colors duration-200 hover:bg-brand-secondary hover:text-white"
+                className="group inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
               >
                 Donate Now
+                <svg
+                  className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2.5}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
               </Link>
               <Link
                 href={MONTHLY_DONATE_URL}
-                className="inline-flex items-center justify-center rounded-full border-2 border-brand-dark px-8 py-3.5 text-sm font-bold text-brand-dark transition-colors duration-200 hover:bg-brand-dark hover:text-white"
+                className="inline-flex items-center justify-center rounded-full border-2 border-brand-dark px-8 py-3.5 text-sm font-bold text-brand-dark transition-all duration-300 hover:bg-brand-dark hover:text-white hover:-translate-y-0.5"
               >
                 Give Monthly
               </Link>
@@ -95,11 +104,11 @@ export default function DonatePage() {
       </section>
 
       {/* Why Donate — with image */}
-      <section className="bg-brand-cream px-6 py-16 sm:py-20">
+      <section className="bg-brand-cream/30 px-6 py-16 sm:py-20">
         <div className="mx-auto max-w-5xl">
           <div className="grid items-center gap-12 md:grid-cols-2">
             <FadeUp>
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-lg">
                 <Image
                   src="/assets/stock/couple-forest-trail.jpg"
                   alt="Couple walking through a sunlit forest trail"
@@ -139,8 +148,8 @@ export default function DonatePage() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {IMPACT_LEVELS.map((level, i) => (
               <FadeUp key={level.amount} delay={i * 0.1}>
-                <div className="flex h-full flex-col rounded-2xl border border-brand-cream bg-brand-cream/40 p-6 text-center">
-                  <span className="text-3xl font-extrabold text-brand-primary">
+                <div className="group flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5">
+                  <span className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">
                     {level.amount}
                   </span>
                   <p className="mt-3 text-sm leading-relaxed text-brand-muted">
@@ -165,23 +174,23 @@ export default function DonatePage() {
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(135deg, rgba(255,202,8,0.9) 0%, rgba(248,147,29,0.85) 100%)',
+              'linear-gradient(135deg, rgba(212,160,36,0.92) 0%, rgba(196,136,47,0.9) 50%, rgba(248,147,29,0.88) 100%)',
           }}
         />
         <div className="relative mx-auto max-w-3xl text-center">
           <FadeUp>
             <SectionLabel>Monthly Giving</SectionLabel>
-            <h2 className="mt-3 text-2xl font-bold text-brand-dark sm:text-3xl">
+            <h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl">
               Steady Hope, Every Month
             </h2>
-            <p className="mt-6 text-base leading-relaxed text-brand-dark/80">
+            <p className="mt-6 text-base leading-relaxed text-white/85">
               Monthly giving provides steady hope. Even a small recurring gift
               helps couples count on support when they need it most.
             </p>
             <div className="mt-8">
               <Link
                 href={MONTHLY_DONATE_URL}
-                className="inline-flex items-center justify-center rounded-full bg-brand-dark px-8 py-3.5 text-sm font-bold text-white shadow-md transition-colors duration-200 hover:bg-brand-text"
+                className="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-bold text-brand-dark shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
               >
                 Give Monthly
               </Link>
@@ -205,7 +214,8 @@ export default function DonatePage() {
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {OTHER_WAYS.map((item, i) => (
               <FadeUp key={item.title} delay={i * 0.1}>
-                <div className="rounded-2xl border border-brand-cream bg-brand-cream/40 p-6 text-center">
+                <div className="group rounded-2xl border border-gray-100 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5">
+                  <div className="mx-auto mb-4 h-1 w-8 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary" />
                   <h3 className="text-lg font-semibold text-brand-dark">
                     {item.title}
                   </h3>
@@ -220,7 +230,7 @@ export default function DonatePage() {
       </section>
 
       {/* Trust + EIN */}
-      <section className="bg-brand-cream px-6 py-16 sm:py-20">
+      <section className="bg-brand-cream/30 px-6 py-16 sm:py-20">
         <div className="mx-auto max-w-3xl text-center">
           <FadeUp>
             <p className="text-sm leading-relaxed text-brand-muted">

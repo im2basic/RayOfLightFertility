@@ -10,8 +10,8 @@ const programs = [
     body: 'Financial assistance to help cover the cost of fertility treatments — because money should never stand between you and your family.',
     cta: 'Learn About Grants',
     href: '/grant',
-    image: '/assets/stock/couple-lake-golden.jpg',
-    imageAlt: 'Couple by a lake during golden hour',
+    image: '/assets/stock/sunflower-field.jpg',
+    imageAlt: 'Sunflower field glowing in warm light',
   },
   {
     title: 'Resources & Guidance',

@@ -13,7 +13,7 @@ export const MONTHLY_DONATE_URL =
   process.env.NEXT_PUBLIC_BUTTER_MONTHLY_DONATE_URL || "#";
 
 export const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL || "info@rayoflightfertilityfoundation.com";
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL || "sales@rayoflightfertilityfoundation.com";
 
 // ── Navigation ───────────────────────────────────────────────
 export interface NavItem {

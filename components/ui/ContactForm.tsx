@@ -82,7 +82,7 @@ export function ContactForm({ className }: ContactFormProps) {
           name="name"
           type="text"
           required
-          className="w-full rounded-lg border border-brand-cream bg-white px-4 py-2.5 text-sm text-brand-text placeholder:text-brand-muted focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30"
+          className="w-full rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm text-brand-text placeholder:text-brand-muted focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30 transition-colors"
           placeholder="Your name"
         />
       </div>
@@ -97,7 +97,7 @@ export function ContactForm({ className }: ContactFormProps) {
           name="email"
           type="email"
           required
-          className="w-full rounded-lg border border-brand-cream bg-white px-4 py-2.5 text-sm text-brand-text placeholder:text-brand-muted focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30"
+          className="w-full rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm text-brand-text placeholder:text-brand-muted focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30 transition-colors"
           placeholder="you@example.com"
         />
       </div>
@@ -112,7 +112,7 @@ export function ContactForm({ className }: ContactFormProps) {
           name="subject"
           required
           defaultValue=""
-          className="w-full rounded-lg border border-brand-cream bg-white px-4 py-2.5 text-sm text-brand-text focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30"
+          className="w-full rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm text-brand-text focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30 transition-colors"
         >
           <option value="" disabled>
             Select a topic
@@ -135,7 +135,7 @@ export function ContactForm({ className }: ContactFormProps) {
           name="message"
           required
           rows={5}
-          className="w-full rounded-lg border border-brand-cream bg-white px-4 py-2.5 text-sm text-brand-text placeholder:text-brand-muted focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30"
+          className="w-full rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm text-brand-text placeholder:text-brand-muted focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/30 transition-colors"
           placeholder="How can we help?"
         />
       </div>
@@ -149,7 +149,7 @@ export function ContactForm({ className }: ContactFormProps) {
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="w-full rounded-full bg-brand-primary px-6 py-3 text-sm font-semibold text-brand-dark transition-colors duration-300 hover:bg-brand-secondary disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full rounded-full bg-gradient-to-r from-[#E8B530] to-[#C4882F] px-6 py-3 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0"
       >
         {status === 'loading' ? 'Sending...' : 'Send Message'}
       </button>

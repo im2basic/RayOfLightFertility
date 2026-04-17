@@ -10,7 +10,7 @@ export default function GrantRecipientsPage() {
     <PlaceholderPage
       title="Grant Recipients"
       copy="Grant recipients will be announced here. We look forward to celebrating the families we've been able to support. Check back soon."
-      image="/assets/stock/couple-lake-golden.jpg"
+      image="/assets/stock/sunrise-road.jpg"
     />
   )
 }

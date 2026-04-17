@@ -24,7 +24,7 @@ export function ProgramCard({
   return (
     <div
       className={cn(
-        'flex flex-col rounded-2xl bg-white shadow-sm border border-brand-cream/60 hover:shadow-md transition-shadow duration-300 overflow-hidden',
+        'group flex flex-col rounded-2xl bg-white shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden',
         className
       )}
     >
@@ -35,7 +35,7 @@ export function ProgramCard({
             alt={imageAlt || ''}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover transition-transform duration-500 hover:scale-105"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </div>
       )}
@@ -47,7 +47,7 @@ export function ProgramCard({
           className="inline-flex items-center font-semibold text-brand-secondary hover:text-brand-primary transition-colors"
         >
           {cta}
-          <span className="ml-2" aria-hidden="true">&rarr;</span>
+          <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">&rarr;</span>
         </Link>
       </div>
     </div>

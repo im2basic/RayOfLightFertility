@@ -23,7 +23,7 @@ export async function POST(request: Request) {
       )
     }
 
-    const contactEmail = process.env.CONTACT_EMAIL || 'winny@rayoflightfertilityfoundation.com'
+    const contactEmail = process.env.CONTACT_EMAIL || 'sales@rayoflightfertilityfoundation.com'
 
     await resend.emails.send({
       from: 'Ray of Light Contact Form <onboarding@resend.dev>',
