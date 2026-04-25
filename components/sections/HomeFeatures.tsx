@@ -18,8 +18,8 @@ export default function HomeFeatures() {
               </h2>
               <p className="mt-6 text-base leading-relaxed text-brand-text/80 sm:text-lg">
                 Educational programming and workshops focused on fertility
-                health, mental wellness, and patient self-advocacy to support
-                informed and empowered decision-making.
+                health, mental wellness, and patient self-advocacy to
+                inform and empower decision-making.
               </p>
               <Link
                 href="/resources"
