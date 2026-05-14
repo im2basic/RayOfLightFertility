@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { PlaceholderPage } from '@/components/ui/PlaceholderPage'
 
 export const metadata: Metadata = {
-  title: 'Grant Recipients — Ray of Light Fertility Foundation',
+  title: 'Grant Recipients - Ray of Light Fertility Foundation',
 }
 
 export default function GrantRecipientsPage() {

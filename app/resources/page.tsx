@@ -83,12 +83,158 @@ export default function ResourcesPage() {
         </div>
       </section>
 
+      {/* Podcasts */}
+      <section className="px-6 py-20 bg-brand-cream/30">
+        <div className="mx-auto max-w-4xl">
+          <FadeUp>
+            <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
+              Podcasts
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-brand-text/70">
+              Honest conversations and expert guidance on fertility and women&apos;s health.
+            </p>
+          </FadeUp>
+
+          <FadeUp delay={0.15}>
+            <div className="group mt-10 rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5">
+              <div className="flex flex-col gap-6 sm:flex-row">
+                <div className="relative h-48 w-full shrink-0 overflow-hidden rounded-xl sm:h-auto sm:w-48">
+                  <Image
+                    src="/assets/stock/image3.jpeg"
+                    alt="Call Your Doctor podcast cover art"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-brand-dark sm:text-xl">
+                    Call Your Doctor
+                  </h3>
+                  <p className="mt-2 text-sm text-brand-muted">
+                    Hosted by Dr. Lucky Sekhon &amp; Dr. Alicia Robbins
+                  </p>
+                  <p className="mt-4 text-base leading-relaxed text-brand-text/70">
+                    A women&apos;s health podcast hosted by Dr. Lucky Sekhon, fertility
+                    specialist and OB/GYN, and Dr. Alicia Robbins, perimenopause and
+                    hormone expert. Together, they deliver relatable, evidence-based
+                    advice on topics such as hormones, egg freezing, perimenopause,
+                    sexual health, aging, and navigating today&apos;s confusing world of
+                    women&apos;s health.
+                  </p>
+                  <p className="mt-3 text-base leading-relaxed text-brand-text/70">
+                    Every Monday they dive into honest conversations, real-life stories,
+                    and actionable medical guidance in smart, digestible episodes designed
+                    for busy women who want real science without the overwhelm.
+                  </p>
+                  <div className="mt-5 flex flex-wrap gap-4">
+                    <a
+                      href="https://podcasts.apple.com/us/podcast/call-your-doctor/id1880915808"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-sm font-semibold text-brand-primary hover:text-brand-secondary transition-colors"
+                    >
+                      Apple Podcasts
+                      <svg
+                        className="ml-1.5 h-4 w-4 transition-transform hover:translate-x-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13 7l5 5m0 0l-5 5m5-5H6"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://open.spotify.com/episode/0ND8re4jAuQHyVRK35dmJm"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-sm font-semibold text-brand-primary hover:text-brand-secondary transition-colors"
+                    >
+                      Spotify
+                      <svg
+                        className="ml-1.5 h-4 w-4 transition-transform hover:translate-x-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13 7l5 5m0 0l-5 5m5-5H6"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* Newsletters */}
+      <section className="px-6 py-20 bg-white">
+        <div className="mx-auto max-w-4xl">
+          <FadeUp>
+            <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
+              Newsletters
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-brand-text/70">
+              Perspectives and stories from the fertility community.
+            </p>
+          </FadeUp>
+
+          <FadeUp delay={0.15}>
+            <a
+              href="https://fertilityunfiltered.substack.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&utm_id=97760_v0_s00_e0_tv3_a1dennhaw4po1r"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-10 block rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
+            >
+              <h3 className="text-lg font-bold text-brand-dark group-hover:text-brand-secondary transition-colors sm:text-xl">
+                Project Prologue: Field Dispatches
+              </h3>
+              <p className="mt-2 text-sm text-brand-muted">
+                By Elizabeth Carr
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-brand-text/70">
+                This space is about what happens after the science works: where family
+                building, policy, identity, and ethics collide. Written from the lived
+                perspective of the first U.S. IVF baby and the endurance it takes to
+                keep going.
+              </p>
+              <span className="mt-4 inline-flex items-center text-sm font-semibold text-brand-primary group-hover:text-brand-secondary transition-colors">
+                Subscribe on Substack
+                <svg
+                  className="ml-1.5 h-4 w-4 transition-transform group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </span>
+            </a>
+          </FadeUp>
+        </div>
+      </section>
+
       {/* More Coming Soon */}
       <section className="px-6 py-16 bg-brand-cream/30">
         <div className="mx-auto max-w-lg text-center">
           <FadeUp>
             <p className="text-base leading-relaxed text-brand-muted">
-              More resources coming soon — trustworthy guidance, financial
+              More resources coming soon - trustworthy guidance, financial
               support information, and genuine community for people navigating
               fertility challenges. Check back soon.
             </p>

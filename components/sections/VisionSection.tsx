@@ -19,7 +19,7 @@ export default function VisionSection() {
             <p className="text-base leading-relaxed text-brand-text/80 sm:text-lg">
               We lift up stories, grow awareness, offer supportive resources, and
               provide financial assistance through grants and
-              fundraisers&mdash;so couples can move forward with clarity,
+              fundraisers so couples can move forward with clarity,
               confidence, and care.
             </p>
 
@@ -27,12 +27,12 @@ export default function VisionSection() {
               <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary" />
               <blockquote className="text-base italic leading-relaxed text-brand-dark/90 sm:text-lg">
                 &ldquo;We envision a world where no one walks the infertility
-                journey alone&mdash;where compassion replaces stigma, community
+                journey alone where compassion replaces stigma, community
                 replaces isolation, and financial barriers no longer prevent
                 couples from building the families they dream of.&rdquo;
               </blockquote>
               <p className="mt-4 text-sm font-semibold tracking-wide text-brand-secondary">
-                &mdash; Our Vision
+                Our Vision
               </p>
             </div>
           </FadeUp>

@@ -8,7 +8,7 @@ import SectionLabel from '@/components/ui/SectionLabel'
 export const metadata: Metadata = {
   title: 'About Us | Ray of Light Fertility Foundation',
   description:
-    "Learn about Ray of Light Fertility Foundation — Wisconsin's first nonprofit dedicated exclusively to supporting couples navigating infertility.",
+    "Learn about Ray of Light Fertility Foundation - Wisconsin's first nonprofit dedicated exclusively to supporting couples navigating infertility.",
 }
 
 const values = [
@@ -51,7 +51,7 @@ export default function AboutPage() {
               <p className="mt-4 text-base leading-relaxed text-brand-text sm:text-lg">
                 Ray of Light Fertility Foundation is a 501(c)(3) nonprofit dedicated
                 exclusively to supporting couples navigating infertility. We are
-                Wisconsin&apos;s first organization of our kind &mdash; created to fill a
+                Wisconsin&apos;s first organization of our kind created to fill a
                 critical gap in financial assistance, emotional support, and accessible
                 resources for those on the path to parenthood.
               </p>
@@ -98,9 +98,9 @@ export default function AboutPage() {
           <FadeUp>
             <SectionLabel>Our Vision</SectionLabel>
             <p className="mt-4 text-base leading-relaxed text-white/80 sm:text-lg">
-              A Wisconsin where every couple facing infertility has access to
+              In Wisconsin where every couple facing infertility has access to
               financial assistance, compassionate resources, and a supportive
-              community &mdash; so that the dream of parenthood is never out of
+              community where the dream of parenthood is never out of
               reach.
             </p>
           </FadeUp>

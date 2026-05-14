@@ -7,7 +7,7 @@ import FadeUp from '@/components/animations/FadeUp'
 const programs = [
   {
     title: 'Fertility Grants',
-    body: 'Financial assistance to help cover the cost of fertility treatments — because money should never stand between you and your family.',
+    body: 'Financial assistance to help cover the cost of fertility treatments - because money should never stand between you and your family.',
     cta: 'Learn About Grants',
     href: '/grant',
     image: '/assets/stock/sunflower-field.jpg',

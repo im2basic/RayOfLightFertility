@@ -70,7 +70,7 @@ export default function DonatePage() {
           <FadeUp>
             <p className="text-lg leading-relaxed text-brand-muted sm:text-xl">
               Your generosity helps couples navigating infertility feel
-              supported, informed, and financially strengthened&mdash;through
+              supported, informed, and financially strengthened through
               grants, resources, and community-funded care.
             </p>
           </FadeUp>
@@ -103,7 +103,7 @@ export default function DonatePage() {
         </div>
       </section>
 
-      {/* Why Donate — with image */}
+      {/* Why Donate - with image */}
       <section className="bg-brand-cream/30 px-6 py-16 sm:py-20">
         <div className="mx-auto max-w-5xl">
           <div className="grid items-center gap-12 md:grid-cols-2">
@@ -125,7 +125,7 @@ export default function DonatePage() {
               <p className="mt-6 text-base leading-relaxed text-brand-muted">
                 Many couples carry two burdens at once: the emotional weight of
                 infertility and the financial stress of treatment. Your gift helps
-                provide practical relief and compassionate support&mdash;so
+                provide practical relief and compassionate support so
                 couples can keep moving forward with hope.
               </p>
             </FadeUp>
@@ -162,7 +162,7 @@ export default function DonatePage() {
         </div>
       </section>
 
-      {/* Monthly Giving Callout — with background image */}
+      {/* Monthly Giving Callout - with background image */}
       <section className="relative overflow-hidden px-6 py-16 sm:py-20">
         <Image
           src="/assets/stock/sunflower-field.jpg"

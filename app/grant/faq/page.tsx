@@ -7,7 +7,7 @@ import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { grantFaqs } from '@/lib/grantFaq'
 
 export const metadata: Metadata = {
-  title: 'Grant FAQ — Ray of Light Fertility Foundation',
+  title: 'Grant FAQ - Ray of Light Fertility Foundation',
 }
 
 export default function GrantFaqPage() {

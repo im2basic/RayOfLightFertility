@@ -8,7 +8,7 @@ import FounderStory from '@/components/sections/FounderStory'
 import CallToAction from '@/components/sections/CallToAction'
 
 export const metadata: Metadata = {
-  title: 'Ray of Light Fertility Foundation — Lighting the Path to Parenthood',
+  title: 'Ray of Light Fertility Foundation - Lighting the Path to Parenthood',
   description:
     "Wisconsin's first nonprofit dedicated exclusively to supporting couples navigating infertility. Financial grants, resources, and community support.",
   openGraph: {

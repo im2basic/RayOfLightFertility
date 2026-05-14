@@ -4,13 +4,11 @@ import PageBanner from '@/components/sections/PageBanner'
 import { FadeUp } from '@/components/animations/FadeUp'
 import SectionLabel from '@/components/ui/SectionLabel'
 import ProgramCard from '@/components/ui/ProgramCard'
-import { DONATE_URL } from '@/lib/constants'
 
-const applyHref =
-  DONATE_URL && DONATE_URL !== '#' ? DONATE_URL : '/grant/information'
+const applyHref = '/grant/information'
 
 export const metadata: Metadata = {
-  title: 'Fertility Grant — Ray of Light Fertility Foundation',
+  title: 'Fertility Grant - Ray of Light Fertility Foundation',
 }
 
 const cards = [

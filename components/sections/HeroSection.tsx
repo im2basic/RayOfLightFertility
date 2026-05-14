@@ -26,7 +26,7 @@ export default function HeroSection() {
         />
       </motion.div>
 
-      {/* Clean dark gradient — no gold wash */}
+      {/* Clean dark gradient - no gold wash */}
       <div
         className="absolute inset-0"
         style={{
@@ -88,7 +88,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3, ease }}
             className="mt-6 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg sm:leading-relaxed"
           >
-            Infertility can feel overwhelming&mdash;and isolating. Ray of Light
+            Infertility can feel overwhelming and isolating. Ray of Light
             Fertility Foundation exists to bring comfort, trusted resources, and
             financial hope to couples navigating the infertility journey across
             Wisconsin.
