@@ -32,6 +32,7 @@ export const boardMembers: BoardMember[] = [
     name: "Angela Wilcox",
     role: "Grants Program Director & Board Director",
     photo: "/assets/board/angela-wilcox.jpg",
+    photoPosition: "center 25%",
     bio: "Ray of Light Fertility Foundation is deeply important to Angela because she believes every couple who dreams of becoming loving parents deserves support and real opportunity. Her commitment to this mission derives from family and friends who have suffered through fertility challenges and loss. She hopes to help expand access to resources, reduce barriers, and ensure that no one feels alone as they navigate the fertility process.\n\nAngela has worked in the grants industry since 2015, supporting clients across the full spectrum of pre-award and post-award activities. She has held progressively responsible roles within both public and private institutions. Her experience spans grant accounting, proposal preparation and submission, financial management, compliance oversight, and comprehensive award administration. She has prepared proposals for and managed awards made by the NIH, NSF, NASA, DHS, CDC, USDA, Small Business Administration (SBA), state and foundations.",
   },
   {
