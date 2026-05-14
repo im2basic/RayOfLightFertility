@@ -100,7 +100,7 @@ export default function ResourcesPage() {
               <div className="flex flex-col gap-6 sm:flex-row">
                 <div className="relative h-48 w-full shrink-0 overflow-hidden rounded-xl sm:h-auto sm:w-48">
                   <Image
-                    src="/assets/stock/image3.jpeg"
+                    src="/assets/stock/call-your-doctor-podcast.png"
                     alt="Call Your Doctor podcast cover art"
                     fill
                     className="object-cover"
