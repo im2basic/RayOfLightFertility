@@ -80,7 +80,7 @@ export function BoardMemberCard({
             transition={{ duration: 0.35, ease: 'easeOut' }}
             className="overflow-hidden"
           >
-            <p className="mt-3 text-sm leading-relaxed text-brand-text">
+            <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-brand-text">
               {bio}
             </p>
           </motion.div>

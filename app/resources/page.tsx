@@ -80,6 +80,64 @@ export default function ResourcesPage() {
               </span>
             </a>
           </FadeUp>
+
+          <FadeUp delay={0.25}>
+            <a
+              href="https://wsupress.wayne.edu/9780814350652/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-8 block rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
+            >
+              <div className="flex flex-col gap-6 sm:flex-row">
+                <div className="mx-auto w-40 shrink-0 sm:mx-0 sm:w-48">
+                  <Image
+                    src="/assets/stock/infertilities-a-curation.jpg"
+                    alt="Cover of Infertilities, a Curation"
+                    width={800}
+                    height={1143}
+                    className="w-full rounded-xl shadow-sm ring-1 ring-black/5"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-brand-dark group-hover:text-brand-secondary transition-colors sm:text-xl">
+                    &ldquo;Infertilities, a Curation&rdquo;
+                  </h3>
+                  <p className="mt-2 text-sm text-brand-muted">
+                    Edited by Elizabeth Horn, Maria Novotny, and Robin Silbergleid
+                  </p>
+                  <p className="mt-4 text-base leading-relaxed text-brand-text/70">
+                    An anthology of personal narratives, poetry, and visual art that
+                    gives language to what infertility actually feels like from the
+                    inside. The collection gathers voices from women, men, nonbinary,
+                    and transgender contributors across many kinds of families,
+                    following the emotional, physical, and psychological weight of
+                    diagnosis, treatment, adoption, pregnancy loss, and building a
+                    meaningful life without children.
+                  </p>
+                  <p className="mt-3 text-sm text-brand-muted">
+                    Wayne State University Press, 2023. 272 pages with 55 color
+                    illustrations.
+                  </p>
+                  <span className="mt-5 inline-flex items-center text-sm font-semibold text-brand-primary group-hover:text-brand-secondary transition-colors">
+                    Learn More
+                    <svg
+                      className="ml-1.5 h-4 w-4 transition-transform group-hover:translate-x-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13 7l5 5m0 0l-5 5m5-5H6"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </FadeUp>
         </div>
       </section>
 
