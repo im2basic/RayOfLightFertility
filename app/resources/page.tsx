@@ -138,6 +138,65 @@ export default function ResourcesPage() {
               </div>
             </a>
           </FadeUp>
+
+          {/* Paired with the book above: one of its co-editors */}
+          <FadeUp delay={0.3}>
+            <div className="mt-4 rounded-2xl border border-gray-100 bg-brand-cream/30 p-8 shadow-sm">
+              <div className="flex flex-col gap-6 sm:flex-row">
+                <div className="relative mx-auto h-32 w-32 shrink-0 overflow-hidden rounded-full sm:mx-0">
+                  <Image
+                    src="/assets/stock/maria-novotny.jpg"
+                    alt="Maria Novotny, PhD"
+                    fill
+                    className="object-cover"
+                    sizes="128px"
+                  />
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-brand-muted">
+                    About the Co-Editor
+                  </p>
+                  <h3 className="mt-2 text-lg font-bold text-brand-dark sm:text-xl">
+                    Maria Novotny, PhD
+                  </h3>
+                  <p className="mt-1 text-sm text-brand-muted">
+                    Co-Director, The ART of Infertility
+                  </p>
+                  <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-text/70">
+                    <p>
+                      Maria Novotny (she/her) is an Associate Professor of English at
+                      the University of Wisconsin-Milwaukee in the Rhetoric,
+                      Professional Writing, and Community Engagement program. Drawing
+                      on a reproductive justice framework, she writes about
+                      reproductive advocacy, in particular infertility and recurrent
+                      reproductive loss. Her co-edited collection Infertilities, A
+                      Curation (Wayne State University Press, 2023) portrays the
+                      ranging experiences of infertility in art and writing.
+                    </p>
+                    <p>
+                      This collection is directly tied to her work as the Co-Director
+                      for The ART of Infertility, which is an arts-based infertility
+                      storytelling project. In 2018, the organization was recognized by
+                      RESOLVE: The National Infertility Association for its innovative
+                      approach to infertility advocacy via the arts and storytelling.
+                    </p>
+                    <p>
+                      As a volunteer, Maria works closely with the Building Families
+                      Alliance of WI, which is a coalition of Wisconsinites advocating
+                      for fertility-friendly state legislation and reducing inequities
+                      to family building.
+                    </p>
+                    <p>
+                      Be sure to check out her new exhibit, In a State of IF, at MIAD
+                      in the Layton Gallery from August 17 to November 21, 2026. Maria
+                      is also a proud adoptive mom of a 7-year-old girl whom she
+                      adopted with her husband in Stevens Point, WI.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FadeUp>
         </div>
       </section>
 
