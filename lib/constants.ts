@@ -15,6 +15,28 @@ export const MONTHLY_DONATE_URL =
 export const CONTACT_EMAIL =
   process.env.NEXT_PUBLIC_CONTACT_EMAIL || "sales@rayoflightfertilityfoundation.com";
 
+// ── Grant Program ────────────────────────────────────────────
+// Every email shown in the Grant section uses this address.
+export const GRANTS_EMAIL = "grants@rayoflightfertilityfoundation.com";
+
+export const GRANT_APPLICATION_URL =
+  "https://www.cognitoforms.com/RayOfLightFertilityFoundation/RayOfLightFertilityFoundationGrantApplication";
+
+export const GRANT_APPLICATION_EMBED = {
+  scriptSrc: "https://www.cognitoforms.com/f/seamless.js",
+  key: "cc4YJd4HDUKKUR0Y62UclA",
+  form: "1",
+};
+
+export const GRANT_TIMELINE = [
+  {
+    label: "Application Period",
+    date: "November 9, 2026 – February 8, 2027, at 5:00 PM CT",
+  },
+  { label: "Application Review", date: "February – March 2027" },
+  { label: "Grant Recipient Announcement", date: "April 1, 2027" },
+];
+
 // ── Navigation ───────────────────────────────────────────────
 export interface NavItem {
   label: string;
@@ -44,6 +66,7 @@ export const NAV_ITEMS: NavItem[] = [
       { label: "Grant Hub", href: "/grant" },
       { label: "Grant Information", href: "/grant/information" },
       { label: "Grant FAQ", href: "/grant/faq" },
+      { label: "Apply for a Grant", href: "/grant/apply" },
       { label: "Grant Recipients", href: "/grant/recipients" },
     ],
   },

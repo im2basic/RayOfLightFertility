@@ -5,7 +5,7 @@ import { FadeUp } from '@/components/animations/FadeUp'
 import SectionLabel from '@/components/ui/SectionLabel'
 import ProgramCard from '@/components/ui/ProgramCard'
 
-const applyHref = '/grant/information'
+const applyHref = '/grant/apply'
 
 export const metadata: Metadata = {
   title: 'Fertility Grant - Ray of Light Fertility Foundation',
@@ -27,6 +27,14 @@ const cards = [
     href: '/grant/faq',
     image: '/assets/stock/couple-forest-trail.jpg',
     imageAlt: 'Couple walking through a sunlit forest trail',
+  },
+  {
+    title: 'Ready to Take the Next Step? Apply for a Grant',
+    body: 'Submit your application for the upcoming grant cycle through our secure online form.',
+    cta: 'Apply for a Grant',
+    href: applyHref,
+    image: '/assets/stock/sunlit-path.jpg',
+    imageAlt: 'Sunlit path leading forward',
   },
   {
     title: 'Grant Recipients',
@@ -61,7 +69,7 @@ export default function GrantHubPage() {
 
       {/* Cards */}
       <section className="bg-brand-cream/30 px-6 py-20">
-        <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-2">
           {cards.map((card, i) => (
             <FadeUp key={card.title} delay={i * 0.1}>
               <ProgramCard

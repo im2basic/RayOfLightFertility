@@ -17,6 +17,7 @@ const FOOTER_LINKS = {
     { label: 'Grant Hub', href: '/grant' },
     { label: 'Grant Information', href: '/grant/information' },
     { label: 'Grant FAQ', href: '/grant/faq' },
+    { label: 'Apply for a Grant', href: '/grant/apply' },
     { label: 'Grant Recipients', href: '/grant/recipients' },
   ],
   'Get Involved': [

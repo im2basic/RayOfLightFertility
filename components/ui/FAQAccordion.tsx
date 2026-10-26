@@ -16,6 +16,41 @@ interface FAQAccordionProps {
   className?: string
 }
 
+const EMAIL_PATTERN = /([\w.+-]+@[\w-]+(?:\.[\w-]+)+)/
+
+function linkifyEmails(text: string) {
+  return text.split(EMAIL_PATTERN).map((part, i) =>
+    i % 2 === 1 ? (
+      <a
+        key={i}
+        href={`mailto:${part}`}
+        className="font-semibold text-brand-secondary underline-offset-2 hover:underline"
+      >
+        {part}
+      </a>
+    ) : (
+      part
+    ),
+  )
+}
+
+// "\n\n" separates paragraphs, "\n" separates lines; "a." style lines are indented sub-items.
+function AnswerBody({ answer }: { answer: string }) {
+  return (
+    <>
+      {answer.split('\n\n').map((paragraph, i) => (
+        <p key={i} className="pt-3 text-sm leading-relaxed text-brand-muted">
+          {paragraph.split('\n').map((line, j) => (
+            <span key={j} className={cn('block', /^[a-z]\.\s/.test(line) && 'pl-4')}>
+              {linkifyEmails(line)}
+            </span>
+          ))}
+        </p>
+      ))}
+    </>
+  )
+}
+
 export function FAQAccordion({ items, className }: FAQAccordionProps) {
   const [openItems, setOpenItems] = useState<string[]>([])
 
@@ -56,9 +91,7 @@ export function FAQAccordion({ items, className }: FAQAccordionProps) {
                     transition={{ duration: 0.35, ease: 'easeOut' }}
                     className="overflow-hidden"
                   >
-                    <p className="pt-3 text-sm leading-relaxed text-brand-muted">
-                      {item.answer}
-                    </p>
+                    <AnswerBody answer={item.answer} />
                   </motion.div>
                 </Accordion.Content>
               )}
