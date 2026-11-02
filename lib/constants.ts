@@ -22,11 +22,10 @@ export const GRANTS_EMAIL = "grants@rayoflightfertilityfoundation.com";
 export const GRANT_APPLICATION_URL =
   "https://www.cognitoforms.com/RayOfLightFertilityFoundation/RayOfLightFertilityFoundationGrantApplication";
 
-export const GRANT_APPLICATION_EMBED = {
-  scriptSrc: "https://www.cognitoforms.com/f/seamless.js",
-  key: "cc4YJd4HDUKKUR0Y62UclA",
-  form: "1",
-};
+export const GRANT_APPLICATION_DATES = [
+  { label: "Applications Open", date: "November 9, 2026" },
+  { label: "Application Deadline", date: "February 8, 2027, at 5:00 PM CT" },
+];
 
 export const GRANT_TIMELINE = [
   {

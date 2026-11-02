@@ -4,6 +4,7 @@ import { CalendarDays, FileText } from 'lucide-react'
 import PageBanner from '@/components/sections/PageBanner'
 import { FadeUp } from '@/components/animations/FadeUp'
 import SectionLabel from '@/components/ui/SectionLabel'
+import { NewsletterSignup } from '@/components/ui/NewsletterSignup'
 import { GRANTS_EMAIL, GRANT_TIMELINE } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -97,6 +98,16 @@ export default function GrantInformationPage() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
+        </FadeUp>
+      </section>
+
+      {/* Newsletter */}
+      <section className="bg-brand-cream/30 px-6 py-16 text-center">
+        <FadeUp>
+          <p className="mb-3 text-sm font-medium text-brand-dark">
+            Stay in the loop
+          </p>
+          <NewsletterSignup className="mx-auto" />
         </FadeUp>
       </section>
     </>
