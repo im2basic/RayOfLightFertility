@@ -3,20 +3,21 @@ import Link from 'next/link'
 import { CalendarDays, ExternalLink } from 'lucide-react'
 import PageBanner from '@/components/sections/PageBanner'
 import { FadeUp } from '@/components/animations/FadeUp'
-import { GRANT_APPLICATION_DATES, GRANT_APPLICATION_URL } from '@/lib/constants'
+import { GRANT_APPLICATION_DATES, GRANT_APPLICATION_URL, GRANT_TIMELINE } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Apply for a Grant - Ray of Light Fertility Foundation',
 }
 
+const applicationPeriod = GRANT_TIMELINE[0]
 const inlineLinkClass = 'font-semibold text-brand-secondary underline-offset-2 hover:underline'
 
 export default function GrantApplyPage() {
   return (
     <>
       <PageBanner
-        title="Fertility Grant Applications Are Now Open!"
-        subtitle="Ray of Light Fertility Foundation | 2026–2027 Grant Cycle"
+        title="Apply for a Grant"
+        subtitle={`${applicationPeriod.label}: ${applicationPeriod.date}`}
         backgroundImage="/assets/stock/sunlit-path.jpg"
       />
 
@@ -24,9 +25,15 @@ export default function GrantApplyPage() {
       <section className="mx-auto max-w-3xl px-6 py-20 text-center">
         <FadeUp>
           <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
-            Your dream of growing a family deserves hope and support.
+            Fertility Grant Applications Are Now Open!
           </h2>
-          <p className="mt-6 text-base leading-relaxed text-brand-muted">
+          <p className="mt-3 text-sm font-semibold text-brand-secondary sm:text-base">
+            Ray of Light Fertility Foundation | 2026–2027 Grant Cycle
+          </p>
+          <p className="mt-8 text-lg font-semibold leading-relaxed text-brand-dark">
+            Your dream of growing a family deserves hope and support.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-brand-muted">
             At Ray of Light Fertility Foundation, we understand that the journey to
             parenthood isn’t always easy. The emotional and financial challenges of
             fertility treatment can feel overwhelming, and we believe finances
