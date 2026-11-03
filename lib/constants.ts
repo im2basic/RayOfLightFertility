@@ -13,7 +13,7 @@ export const MONTHLY_DONATE_URL =
   process.env.NEXT_PUBLIC_BUTTER_MONTHLY_DONATE_URL || "#";
 
 export const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL || "sales@rayoflightfertilityfoundation.com";
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL || "info@rayoflightfertilityfoundation.com";
 
 // ── Grant Program ────────────────────────────────────────────
 // Every email shown in the Grant section uses this address.
