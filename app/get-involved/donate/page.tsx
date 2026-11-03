@@ -19,7 +19,7 @@ const IMPACT_LEVELS = [
   {
     amount: '$25',
     description:
-      'Helps expand resource access and outreach to more couples seeking support',
+      'Helps expand access to resources and outreach programs for more couples seeking support',
   },
   {
     amount: '$50',
@@ -29,7 +29,7 @@ const IMPACT_LEVELS = [
   {
     amount: '$100',
     description:
-      'Helps grow our grant fund\u2014bringing treatment within closer reach',
+      'Helps grow our grant fund, bringing fertility treatment within reach for more couples',
   },
   {
     amount: '$250+',
@@ -50,7 +50,7 @@ const OTHER_WAYS = [
       'Align your brand with a mission that matters. We welcome corporate sponsors who want to make a meaningful difference.',
   },
   {
-    title: 'In Honor / In Memory',
+    title: 'In Honor or in Memory',
     description:
       'Make a gift in honor or in memory of someone special. A meaningful way to celebrate or remember a loved one.',
   },
@@ -241,7 +241,7 @@ export default function DonatePage() {
             </p>
             <p className="mt-4 text-xs text-brand-muted/70">
               The Ray of Light Fertility Foundation is a nonprofit organization
-              under IRS Tax Code 501(c)3. Identification Number: 41-3096700.
+              under IRS Tax Code 501(c)(3). Identification Number: 41-3096700.
               All donations made to The Ray of Light Fertility Foundation are
               tax deductible in the United States under IRC Section 170.
             </p>

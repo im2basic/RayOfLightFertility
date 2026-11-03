@@ -60,7 +60,8 @@ export default function GrantHubPage() {
           <SectionLabel>Our Grant Program</SectionLabel>
           <p className="mt-4 text-lg leading-relaxed text-brand-muted">
             Through our Ray of Light Fertility Grant, we help ease the financial
-            burden of fertility treatments for women who need support. The
+            burden of fertility treatment for eligible couples navigating
+            infertility. The
             Foundation seeks to reduce financial barriers, expand access to care,
             and provide comprehensive support throughout the infertility journey.
           </p>
