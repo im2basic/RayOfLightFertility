@@ -7,14 +7,14 @@ import FadeUp from '@/components/animations/FadeUp'
 export default function HomeFeatures() {
   return (
     <>
-      {/* Education and Resources Support */}
+      {/* Education, Resources & Support */}
       <section className="bg-white px-6 py-20 md:py-28">
         <div className="mx-auto max-w-6xl">
           <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
             {/* Text */}
             <FadeUp>
               <h2 className="text-3xl font-extrabold text-brand-dark sm:text-4xl">
-                Education and Resources Support
+                Education, Resources &amp; Support
               </h2>
               <p className="mt-6 text-base leading-relaxed text-brand-text/80 sm:text-lg">
                 Educational programming and workshops focused on fertility
@@ -76,8 +76,7 @@ export default function HomeFeatures() {
               </h2>
               <p className="mt-6 text-base leading-relaxed text-white/70 sm:text-lg">
                 Through our Ray of Light Fertility Grant, we help ease the
-                financial burden of fertility treatments for women who need
-                support.
+                financial burden of fertility treatments for eligible couples.
               </p>
               <Link
                 href="/grant"

@@ -19,7 +19,7 @@ export const boardMembers: BoardMember[] = [
     role: "Vice President",
     photo: "/assets/board/jenna-wakefield.jpeg",
     photoPosition: "center 15%",
-    bio: "Jenna Wakefield is an accomplished marketing & sales leader with more than 20 years of experience helping organizations grow through strategic brand development, storytelling, event execution and partnerships.\n\nJenna brings her leadership, clarity, and passion for helping others to the Ray of Light Fertility Foundation. Her commitment to the Foundation\u2019s mission is rooted in empathy and a profound belief in the transformative power of family. She is committed to supporting couples on their fertility journey\u2014providing hope, guidance, and access to the resources they need to build the families they dream of.\n\nFor Jenna, serving the Ray of Light Fertility Foundation is more than a professional role; it is a personal calling to help others experience the extraordinary gift that changed her life: becoming a parent.",
+    bio: "Jenna Wakefield is an accomplished marketing & sales leader with more than 20 years of experience helping organizations grow through strategic brand development, storytelling, event execution and partnerships.\n\nJenna brings her leadership, clarity, and passion for helping others to the Ray of Light Fertility Foundation. Her commitment to the Foundation\u2019s mission is rooted in empathy and a profound belief in the transformative power of family. She is committed to supporting couples on their fertility journey, providing hope, guidance, and access to the resources they need to build the families they dream of.\n\nFor Jenna, serving the Ray of Light Fertility Foundation is more than a professional role; it is a personal calling to help others experience the extraordinary gift that changed her life: becoming a parent.",
   },
   {
     name: "Angela Wilcox",
@@ -33,11 +33,11 @@ export const boardMembers: BoardMember[] = [
     role: "Director of Marketing",
     photo: "/assets/board/Joseph (Joe) Gustafson Headshot.jpeg",
     photoPosition: "center 20%",
-    bio: "Professionally, Joe builds and scales brands by fusing hard analytics with authenticity. Over his career he\u2019s worked on brands local to global on growth initiatives, with boutique brands, agencies, startups, and global companies.\n\nPersonally, Joe is a father of two young girls and has experienced first hand the peaks and valleys of starting a family. Both of his daughters were born prematurely, his second 3 months early. Not only were her own early months challenging, but he experienced and connected first-hand with families in the NICU coping with and finding support for unexpected challenges\u2014some even after years of struggling with infertility.",
+    bio: "Professionally, Joe builds and scales brands by fusing hard analytics with authenticity. Over his career he\u2019s worked on brands local to global on growth initiatives, with boutique brands, agencies, startups, and global companies.\n\nPersonally, Joe is a father of two young girls and has experienced first hand the peaks and valleys of starting a family. Both of his daughters were born prematurely, his second 3 months early. Not only were her own early months challenging, but he experienced and connected first-hand with families in the NICU coping with and finding support for unexpected challenges, some even after years of struggling with infertility.",
   },
   {
     name: "Melissa Stone",
-    role: "Treasure / Attorney / Board Member",
+    role: "Treasurer, Attorney & Board Member",
     photo: "/assets/board/melissa-stone.jpeg",
     bio: "Melissa Stone is a Shareholder and member of the Board of Directors of Lindner & Marsack, S.C. Melissa\u2019s practice is solely dedicated to defending workers\u2019 compensation claims for the insurance industry and self-insured employers, including \u00a7 102.29 Wis. Stats. subrogation cases. Melissa is a frequent lecturer and presenter on worker\u2019s compensation law topics in Wisconsin.\n\nMelissa received her law degree from Marquette University Law School and her undergraduate Bachelor of Science degree, magna cum laude, from Carroll University, where she double majored in Criminal Justice and Sociology, with minors in Social Work, Human Services and Accounting.",
   },

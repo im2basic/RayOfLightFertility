@@ -27,7 +27,7 @@ export default function VisionSection() {
               <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary" />
               <blockquote className="text-base italic leading-relaxed text-brand-dark/90 sm:text-lg">
                 &ldquo;We envision a world where no one walks the infertility
-                journey alone where compassion replaces stigma, community
+                journey alone; where compassion replaces stigma, community
                 replaces isolation, and financial barriers no longer prevent
                 couples from building the families they dream of.&rdquo;
               </blockquote>

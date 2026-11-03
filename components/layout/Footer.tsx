@@ -157,7 +157,7 @@ export default function Footer() {
             </p>
             <p>
               The Ray of Light Fertility Foundation is a nonprofit organization
-              under IRS Tax Code 501(c)3. Identification Number: 41-3096700.
+              under IRS Tax Code 501(c)(3). Identification Number: 41-3096700.
               All donations made to The Ray of Light Fertility Foundation are
               tax deductible in the United States under IRC Section 170.
             </p>

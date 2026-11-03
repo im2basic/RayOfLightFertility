@@ -41,7 +41,8 @@ export default function GrantApplyPage() {
           </p>
           <p className="mt-4 text-base leading-relaxed text-brand-muted">
             Our fertility grant program provides financial assistance to eligible
-            individuals and families seeking fertility treatment, helping bring them
+            married couples and registered domestic partners seeking fertility
+            treatment, helping bring them
             one step closer to their dreams.
           </p>
         </FadeUp>
@@ -80,7 +81,7 @@ export default function GrantApplyPage() {
               </Link>{' '}
               and{' '}
               <Link href="/grant/faq" className={inlineLinkClass}>
-                Grant FAQs
+                frequently asked questions
               </Link>{' '}
               before submitting an application.
             </p>
@@ -103,7 +104,7 @@ export default function GrantApplyPage() {
             fertility treatment more financially accessible.
           </p>
           <p className="mx-auto mb-8 mt-4 max-w-xl text-base leading-relaxed text-brand-muted">
-            Applications are now open for our 2026–2027 grant cycle.
+            Applications open November 9, 2026, for our 2026–2027 grant cycle.
           </p>
           <a
             href={GRANT_APPLICATION_URL}

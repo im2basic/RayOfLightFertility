@@ -414,7 +414,7 @@ export default function ResourcesPage() {
                   women&apos;s health.
                 </p>
                 <p className="mt-3 text-base leading-relaxed text-brand-text/70">
-                  Every Monday they dive into honest conversations, real-life stories,
+                  Every Monday, they dive into honest conversations, real-life stories,
                   and actionable medical guidance in smart, digestible episodes designed
                   for busy women who want real science without the overwhelm.
                 </p>
@@ -470,9 +470,9 @@ export default function ResourcesPage() {
         <div className="mx-auto max-w-lg text-center">
           <FadeUp>
             <p className="text-base leading-relaxed text-brand-muted">
-              More resources coming soon - trustworthy guidance, financial
-              support information, and genuine community for people navigating
-              fertility challenges. Check back soon.
+              More resources are coming soon, including trustworthy guidance,
+              financial assistance information, and community support for people
+              navigating fertility challenges. Check back soon.
             </p>
           </FadeUp>
 

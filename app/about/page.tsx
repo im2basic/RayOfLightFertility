@@ -51,7 +51,7 @@ export default function AboutPage() {
               <p className="mt-4 text-base leading-relaxed text-brand-text sm:text-lg">
                 Ray of Light Fertility Foundation is a 501(c)(3) nonprofit dedicated
                 exclusively to supporting couples navigating infertility. We are
-                Wisconsin&apos;s first organization of our kind created to fill a
+                Wisconsin&apos;s first organization of our kind, created to fill a
                 critical gap in financial assistance, emotional support, and accessible
                 resources for those on the path to parenthood.
               </p>
@@ -98,10 +98,10 @@ export default function AboutPage() {
           <FadeUp>
             <SectionLabel>Our Vision</SectionLabel>
             <p className="mt-4 text-base leading-relaxed text-white/80 sm:text-lg">
-              In Wisconsin where every couple facing infertility has access to
-              financial assistance, compassionate resources, and a supportive
-              community where the dream of parenthood is never out of
-              reach.
+              We envision a Wisconsin where every couple facing infertility has
+              access to financial assistance, compassionate resources, and a
+              supportive community, and where the dream of parenthood is
+              never out of reach.
             </p>
           </FadeUp>
         </div>
