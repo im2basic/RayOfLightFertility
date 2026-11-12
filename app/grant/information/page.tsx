@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { CalendarDays, FileText } from 'lucide-react'
+import { CalendarDays } from 'lucide-react'
 import PageBanner from '@/components/sections/PageBanner'
 import { FadeUp } from '@/components/animations/FadeUp'
 import SectionLabel from '@/components/ui/SectionLabel'
@@ -42,32 +42,6 @@ export default function GrantInformationPage() {
             </FadeUp>
           ))}
         </ol>
-      </section>
-
-      {/* Resources */}
-      <section className="bg-brand-cream/30 px-6 py-20">
-        <div className="mx-auto max-w-3xl">
-          <FadeUp>
-            <SectionLabel>Resources</SectionLabel>
-            <h2 className="mt-3 mb-8 text-2xl font-bold text-brand-dark sm:text-3xl">
-              Grant Documents
-            </h2>
-          </FadeUp>
-
-          <FadeUp delay={0.1}>
-            <div className="flex items-start gap-5 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm sm:p-8">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-primary/15 text-brand-secondary">
-                <FileText className="h-6 w-6" aria-hidden="true" />
-              </span>
-              <div>
-                <h3 className="text-lg font-semibold text-brand-dark">
-                  Request for Proposals (RFP)
-                </h3>
-                <p className="mt-1 text-base text-brand-muted">Updated version forthcoming.</p>
-              </div>
-            </div>
-          </FadeUp>
-        </div>
       </section>
 
       {/* CTA */}
